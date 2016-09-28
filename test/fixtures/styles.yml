@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  background_color: MyString
+  block_height: MyString
+  name_color: MyString
+  name_style: MyString
+  name_size: MyString
+  text_color: MyString
+  text_style: MyString
+  text_size: MyString
+  email_color: MyString
+  email_style: MyString
+  email_size: MyString
+
+two:
+  background_color: MyString
+  block_height: MyString
+  name_color: MyString
+  name_style: MyString
+  name_size: MyString
+  text_color: MyString
+  text_style: MyString
+  text_size: MyString
+  email_color: MyString
+  email_style: MyString
+  email_size: MyString
