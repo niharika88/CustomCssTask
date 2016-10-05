@@ -33,122 +33,121 @@
 body{
   width: 960px;
   margin:50px auto;
-}*/
+  }*/
 
-body {  
-  background-color: #fafafa;
-  font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  
-}
+  body {  
+    background-color: #fafafa;
+    font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
-.navbar-brand {
-  a {
+  }
+
+  .navbar-brand {
+    a {
+      color: #125688;
+    }
+  }
+
+  .navbar-default {
+    background-color: #fff;
+    height: 54px;
+    .navbar-nav li a {
+      color: #125688;
+    }
+  }
+
+  .navbar-container {
+    width: 640px;
+    margin: 0 auto;
+    height: $block_height;
+    background-color: $background_color;
+  }
+
+  .posts-wrapper {
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 642px;
+    width: 100%;
+
+  }
+
+  .post {
+    background-color: #fff;
+    border-color: #edeeee;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    margin-bottom: 60px;
+  }
+
+  .post-head {
+
+    height: 64px;
+    padding: 14px 20px;
     color: #125688;
+    font-size: 15px;
+    line-height: 18px;
+    .thumbnail {}
+    .name {
+      display: block;
+      color: $name_color;
+      font-size: $name_size;
+      font-style: $name_style;
+    }
+    .email{
+      color: $email_color;
+      font-size: $email_size;
+      font-style: $email_style; 
+    }
+
   }
-}
 
-.navbar-default {
-  background-color: #fff;
-  height: 54px;
-  .navbar-nav li a {
-    color: #125688;
+  .image {
+    border-bottom: 1px solid #eeefef;
+    border-top: 1px solid #eeefef;
+    background-image: url($logo_url);
+    background-color: white;
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    zoom: 2.1;
   }
-}
 
-.navbar-container {
-  width: 640px;
-  margin: 0 auto;
-  height: $block_height;
-  background-color: $background_color;
-}
+  .caption {
+    padding: 24px 24px;
+    font-size: 15px;
+    line-height: 18px;
+    color: $text_color;
+    font-size: $text_size;
+    font-style: $text_style; 
+    overflow: hidden;
+    text-align: center
 
-.posts-wrapper {
-  padding-top: 40px;
-  margin: 0 auto;
-  max-width: 642px;
-  width: 100%;
-
-}
-
-.post {
-  background-color: #fff;
-  border-color: #edeeee;
-  border-style: solid;
-  border-radius: 3px;
-  border-width: 1px;
-  margin-bottom: 60px;
-}
-
-.post-head {
-
-  height: 64px;
-  padding: 14px 20px;
-  color: #125688;
-  font-size: 15px;
-  line-height: 18px;
-  .thumbnail {}
-  .name {
-  display: block;
-  color: $name_color;
-  font-size: $name_size;
-  font-style: $name_style;
   }
-  .email{
-  color: $email_color;
-  font-size: $email_size;
-  font-style: $email_style; 
-}
 
-}
-
-.image {
-  border-bottom: 1px solid #eeefef;
-  border-top: 1px solid #eeefef;
-  background-image: url($logo_url);
-  background-color: white;
-  display: block;
-  width: 300px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  zoom: 2.1;
-}
-
-.caption {
-  padding: 24px 24px;
-  font-size: 15px;
-  line-height: 18px;
-  color: $text_color;
-  font-size: $text_size;
-  font-style: $text_style; 
-  overflow: hidden;
-  text-align: center
-
-}
-
-.form-wrapper {
-  width: 60%;
-  margin: 20px auto;
-  background-color: #fff;
-  padding: 40px;
-  border: 1px solid #eeefef;
-  border-radius: 3px;
-}
+  .form-wrapper {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 40px;
+    border: 1px solid #eeefef;
+    border-radius: 3px;
+  }
 
 /*.edit-links {
   margin-top: 20px;
   margin-bottom: 40px;
-}*/
-.edit_style {
-  float: right;
-}
+  }*/
+  .edit_style {
+    float: right;
+  }
 
-.container_element_edit {
-position: fixed;
-width: 340px;
-height: 280px;
-top: 50%;
-left: 50%;
-margin-top: -140px;
-margin-left: -170px;
-}
+  .container_element_edit {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    width: 300px;
+    display: block;
+    margin: auto;
+    height: 720px;
+  }
